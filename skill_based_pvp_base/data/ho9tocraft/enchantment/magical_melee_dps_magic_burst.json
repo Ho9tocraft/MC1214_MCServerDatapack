@@ -1,0 +1,24 @@
+{
+    "description": "{ \"translate\": \"ho9tocraft.magical_melee_dps.magic_burst\", \"fallback\": \"Magic Burst\" }",
+    "exclusive_set": [
+        "looting",
+        "fortune"
+    ],
+    "supported_items": "#swords",
+    "weight": 1,
+    "max_level": 10,
+    "min_cost": {
+        "base": 4,
+        "per_level_above_first": 4
+    },
+    "max_cost": {
+        "base": 24,
+        "per_level_above_first": 8
+    },
+    "anvil_cost": 60,
+    "slots": [
+        "hand"
+    ],
+    "effects": {
+    }
+}
