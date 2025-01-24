@@ -1,5 +1,8 @@
 {
-    "description": "{ \"translate\": \"ho9tocraft.melee_dps.blind_blade\", \"fallback\": \"Blind Blade\" }",
+    "description": {
+        "translate": "ho9tocraft.melee_dps.blind_blade",
+        "fallback": "Blind Blade"
+    },
     "exclusive_set": "#exclusive_set/damage",
     "supported_items": "#swords",
     "weight": 1,

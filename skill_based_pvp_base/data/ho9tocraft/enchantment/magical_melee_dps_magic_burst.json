@@ -1,5 +1,8 @@
 {
-    "description": "{ \"translate\": \"ho9tocraft.magical_melee_dps.magic_burst\", \"fallback\": \"Magic Burst\" }",
+    "description": {
+        "translate": "ho9tocraft.magical_melee_dps.magic_burst",
+        "fallback": "Magic Burst"
+    },
     "exclusive_set": [
         "looting",
         "fortune"
@@ -20,5 +23,42 @@
         "hand"
     ],
     "effects": {
+        "post_attack": [
+            {
+                "effect": {
+                    "type": "minecraft:damage_entity",
+                    "damage_type": "ho9tocraft:magic_burst",
+                    "min_damage": 16,
+                    "max_damage": 16
+                },
+                "enchanted": "attacker",
+                "affected": "victim"
+            },
+            {
+                "effect": {
+                    "type": "spawn_particles",
+                    "particle": {
+                        "type": "dust_color_transition",
+                        "from_color": [0.902, 0.000, 0.200],
+                        "to_color": [0.267, 0.588, 0.827],
+                        "scale": 1
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "horizontal_velocity": {},
+                    "vertical_velocity": {
+                        "base": 0.5,
+                        "movement_scale": 0.1
+                    },
+                    "speed": 0.75
+                },
+                "enchanted": "attacker",
+                "affected": "victim"
+            }
+        ]
     }
 }
