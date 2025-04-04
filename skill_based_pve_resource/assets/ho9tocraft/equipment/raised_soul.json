@@ -1,0 +1,14 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "ho9tocraft:raised_soul"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "ho9tocraft:raised_soul"
+            }
+        ]
+    }
+}
