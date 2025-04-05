@@ -1,5 +1,5 @@
 {
     "message_id": "effectCurse",
-    "exhaustion": 0.75,
+    "exhaustion": 100,
     "scaling": "never"
 }

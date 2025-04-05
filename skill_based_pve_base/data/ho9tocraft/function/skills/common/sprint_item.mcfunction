@@ -1,0 +1,1 @@
+item replace entity @s hotbar.8 with gray_dye[consumable={consume_seconds:0,animation:"none",has_consume_particles:false,sound:"entity.experience_orb.pickup"},max_stack_size=1,use_cooldown={seconds:60,cooldown_group:"ffxiv:general/sprint"},item_name=[{bold:false,italic:false,translate:"ffxiv.general.sprint.name",fallback:"Sprint"}],item_model="ffxiv:sprint"] 1
