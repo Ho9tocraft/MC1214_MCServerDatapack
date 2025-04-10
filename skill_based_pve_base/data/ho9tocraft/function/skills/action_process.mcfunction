@@ -1,5 +1,9 @@
 # アクション
+# 前処理
+data merge storage ffxiv:damage_path {owner:[I;0,0,0,0],damage_amount:0,target:[I;0,0,0,0]}
+
 # --ナイト--
+execute as @e at @s run function ho9tocraft:skills/jobactions/01_pld/act_fast_blade
 
 # --共通--
 execute as @e at @s run function ho9tocraft:skills/common/sprint_act

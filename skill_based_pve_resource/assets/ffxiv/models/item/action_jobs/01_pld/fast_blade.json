@@ -1,0 +1,6 @@
+{
+    "parent": "ffxiv:item/model_base",
+    "textures": {
+        "layer0": "ffxiv:item/01_pld/fast_blade"
+    }
+}
