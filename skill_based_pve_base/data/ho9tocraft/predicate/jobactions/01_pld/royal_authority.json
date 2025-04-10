@@ -5,7 +5,7 @@
         "equipment": { "mainhand": {
             "items": [ "orange_dye" ],
             "components": {
-                "custom_data": { "action_data": "01_PLD-FAST_BLADE" }
+                "custom_data": { "action_data": "01_PLD-ROYAL_AUTHORITY" }
             }
         }},
         "flags": {
