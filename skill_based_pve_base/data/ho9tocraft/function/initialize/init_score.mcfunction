@@ -10,7 +10,7 @@ scoreboard objectives add clickHB5 used:honey_bottle
 scoreboard objectives add clickHB6 used:black_dye
 scoreboard objectives add clickHB7 used:magma_cream
 scoreboard objectives add clickHB8 used:gray_dye
-# コンボ中断条件(1200になったらコンボ中断)
+# コンボ中断条件(0になったらコンボ中断)
 scoreboard objectives add expireCombo dummy
 # ジョブ固有スコア
 scoreboard objectives add PLD_Oath dummy

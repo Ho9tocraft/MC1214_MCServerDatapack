@@ -1,0 +1,15 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": { "mainhand": {
+            "items": [ "orange_dye" ],
+            "components": {
+                "custom_data": { "action_data": "01_PLD-SUPPLICATION" }
+            }
+        }},
+        "flags": {
+            "is_sneaking": false
+        }
+    }
+}
