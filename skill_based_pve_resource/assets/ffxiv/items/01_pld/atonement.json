@@ -1,7 +1,0 @@
-{
-    "model": {
-        "type": "model",
-        "model": "ffxiv:item/action_jobs/01_pld/atonement"
-    },
-    "hand_animation_on_swap": false
-}
