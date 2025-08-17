@@ -1,6 +1,4 @@
 {
     "values": [
-        "ho9tocraft:initialize/init_player",
-        "ho9tocraft:skills/action_process"
     ]
 }

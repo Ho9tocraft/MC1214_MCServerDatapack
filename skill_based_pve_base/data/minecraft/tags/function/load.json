@@ -1,6 +1,4 @@
 {
     "values": [
-        "ho9tocraft:initialize/init_score",
-        "ho9tocraft:initialize/init_gamerule"
     ]
 }
