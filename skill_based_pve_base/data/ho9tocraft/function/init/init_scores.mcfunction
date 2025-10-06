@@ -68,3 +68,8 @@ scoreboard objectives add sy_iron_hp minecraft.used:minecraft.iron_hoe
 scoreboard objectives add sy_golden_hp minecraft.used:minecraft.golden_hoe
 scoreboard objectives add sy_diamond_hp minecraft.used:minecraft.diamond_hoe
 scoreboard objectives add sy_netherite_hp minecraft.used:minecraft.netherite_hoe
+
+# Attack Damage Value
+scoreboard objectives add atk_dmg_val dummy
+# Has Item
+scoreboard objectives add has_item dummy

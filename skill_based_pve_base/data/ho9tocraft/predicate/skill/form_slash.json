@@ -1,0 +1,16 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": { "mainhand": { "components": {
+                    "custom_data": {
+                        "weapon_skill": 1
+                    }
+                }}}
+            }
+        }
+    ]
+}
