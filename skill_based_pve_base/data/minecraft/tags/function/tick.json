@@ -1,4 +1,6 @@
 {
     "values": [
+        "ho9tocraft:utils/using_sync",
+        "ho9tocraft:utils/global_cooldown"
     ]
 }

@@ -1,0 +1,26 @@
+# GLOBAL COOLDOWN
+scoreboard players set @s synced 0
+scoreboard players set @s sy_wooden_sw 0
+scoreboard players set @s sy_stone_sw 0
+scoreboard players set @s sy_iron_sw 0
+scoreboard players set @s sy_golden_sw 0
+scoreboard players set @s sy_diamond_sw 0
+scoreboard players set @s sy_netherite_sw 0
+scoreboard players set @s sy_wooden_ax 0
+scoreboard players set @s sy_stone_ax 0
+scoreboard players set @s sy_iron_ax 0
+scoreboard players set @s sy_golden_ax 0
+scoreboard players set @s sy_diamond_ax 0
+scoreboard players set @s sy_netherite_ax 0
+scoreboard players set @s sy_wooden_sh 0
+scoreboard players set @s sy_stone_sh 0
+scoreboard players set @s sy_iron_sh 0
+scoreboard players set @s sy_golden_sh 0
+scoreboard players set @s sy_diamond_sh 0
+scoreboard players set @s sy_netherite_sh 0
+scoreboard players set @s sy_wooden_hp 0
+scoreboard players set @s sy_stone_hp 0
+scoreboard players set @s sy_iron_hp 0
+scoreboard players set @s sy_golden_hp 0
+scoreboard players set @s sy_diamond_hp 0
+scoreboard players set @s sy_netherite_hp 0
