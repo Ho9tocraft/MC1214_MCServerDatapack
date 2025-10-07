@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 88,
+        "min_format": [ 88, 0 ],
         "description": "Ho9tocraft PvE Server Core Datapack"
     }
 }

@@ -1,4 +1,5 @@
-# SKILL BASED PVE Datapack: TODO
-## Skill Based PVE Base
+# JOB BASED PVP Datapack: TODO
+## Job Based PVP Base
 ### 基本概要
-- 武器種ごとにアイテム追加
+- ジョブベースPvPに立ち返る。
+- ナイトは強すぎるので、盾限定で出禁。

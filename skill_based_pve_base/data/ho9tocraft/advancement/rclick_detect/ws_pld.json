@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": {},
+                "item": {
+                    "items": [
+                        "minecraft:iron_sword"
+                    ],
+                    "components": {
+                        "custom_data": {
+                            "job_id": 0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ho9tocraft:skills/ws_pld"
+    }
+}
