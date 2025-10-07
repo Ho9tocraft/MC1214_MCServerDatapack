@@ -1,0 +1,23 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "hunger": {
+                "duration": {
+                    "min": 1
+                }
+            },
+            "slowness": {
+                "duration": {
+                    "min": 1
+                }
+            },
+            "weakness": {
+                "duration": {
+                    "min": 1
+                }
+            }
+        }
+    }
+}

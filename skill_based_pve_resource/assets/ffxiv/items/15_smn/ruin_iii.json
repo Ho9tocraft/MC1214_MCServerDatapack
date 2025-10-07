@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "model",
+        "model": "ffxiv:item/15_smn/ruin_iii"
+    },
+    "hand_animation_on_swap": false
+}
