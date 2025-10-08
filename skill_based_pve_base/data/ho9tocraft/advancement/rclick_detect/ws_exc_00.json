@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "ws_exc_00": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "red_dye",
+                    "predicates": {
+                        "minecraft:custom_data": "{\"combinat_data\":{\"id\":100,\"combo\":0}}"
+                    }
+                },
+                "player": {}
+            }
+        }
+    },
+    "rewards": {
+        "function": "ho9tocraft:skills/ws_exc_00"
+    }
+}

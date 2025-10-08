@@ -6,7 +6,6 @@
                 "player": {},
                 "item": {
                     "items": [
-                        "minecraft:iron_sword"
                     ],
                     "components": {
                         "custom_data": {
@@ -18,6 +17,6 @@
         }
     },
     "rewards": {
-        "function": "ho9tocraft:skills/ws_pld"
+        "function": "ho9tocraft:skills/ws_pld_00"
     }
 }

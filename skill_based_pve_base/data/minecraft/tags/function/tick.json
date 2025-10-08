@@ -1,5 +1,6 @@
 {
     "values": [
-        "ho9tocraft:utils/login_detect"
+        "ho9tocraft:utils/login_detect",
+        "#ho9tocraft:particles"
     ]
 }

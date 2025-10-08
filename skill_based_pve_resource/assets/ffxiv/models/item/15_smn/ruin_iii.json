@@ -1,6 +1,6 @@
 {
     "parent": "ffxiv:item/model_base",
     "textures": {
-        "layer0": "ffxiv:15_smn/ruin_iii"
+        "layer0": "ffxiv:item/15_smn/ruin_iii"
     }
 }
