@@ -14,6 +14,10 @@ scoreboard objectives add DAMAGE_HELPER dummy
 scoreboard objectives add DAMAGE_CATEGORY dummy
 # Ticking
 scoreboard objectives add tick dummy
+# Using Item
+scoreboard objectives add click_red minecraft.used:minecraft.red_dye
+scoreboard objectives add click_orange minecraft.used:minecraft.orange_dye
+scoreboard objectives add click_yellow minecraft.used:minecraft.yellow_dye
 
 # Team
 team add RED
