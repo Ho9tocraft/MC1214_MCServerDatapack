@@ -18,6 +18,7 @@ scoreboard objectives add tick dummy
 scoreboard objectives add click_red minecraft.used:minecraft.red_dye
 scoreboard objectives add click_orange minecraft.used:minecraft.orange_dye
 scoreboard objectives add click_yellow minecraft.used:minecraft.yellow_dye
+scoreboard objectives add click_white minecraft.used:minecraft.white_dye
 
 # Team
 team add RED

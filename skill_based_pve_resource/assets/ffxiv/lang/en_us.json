@@ -15,6 +15,9 @@
     "skill.ex1_exc.ws_4.name": "Overproduction Steel",
     "skill.ex1_exc.ws_4.lore.0": "Deals massive damage to the nearest enemy.",
     "skill.ex1_exc.ws_4.lore.1": "Additionally, inflicts a Wither effect on the target for a set duration.",
+    "skill.ex1_exc.ab_0.name": "Vampiric Blade",
+    "skill.ex1_exc.ab_0.lore.0": "Increases the attack power of normal attacks.",
+    "skill.ex1_exc.ab_0.lore.1": "Additionally, when a weapon skill hits, it restores a small amount of health.",
     "__comment_01_equipment__": "EQUIPMENTS",
     "item.raised_soul.helmet.name": "Exorcist's Headdress",
     "item.raised_soul.chestplate.name": "Exorcist's Robe",
@@ -31,6 +34,7 @@
     "skill.common.range.20m": "Range: 20m",
     "skill.common.range.25m": "Range: 25m",
     "skill.common.range.30m": "Range: 30m",
+    "skill.common.area.0m": "Area: 0m",
     "skill.common.area.5m": "Area: 5m",
     "skill.common.area.6m": "Area: 6m",
     "skill.common.area.8m": "Area: 8m",
@@ -48,5 +52,7 @@
     "skill.common.recast.2p5sec": "Recast: 2.5 sec",
     "skill.common.recast.5sec": "Recast: 5 sec",
     "skill.common.recast.10sec": "Recast: 10 sec",
+    "skill.common.recast.20sec": "Recast: 20 sec",
+    "skill.common.recast.30sec": "Recast: 30 sec",
     "__comment_99_end_of_file__": "End of File"
 }
