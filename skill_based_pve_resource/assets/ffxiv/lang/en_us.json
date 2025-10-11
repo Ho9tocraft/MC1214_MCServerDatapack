@@ -1,5 +1,10 @@
 {
     "__comment_00_job_skills__": "FFXIV JOB SKILLS",
+    "skill.03_drk.ws_0.name": "Hard Slash",
+    "skill.03_drk.ws_c.lore.0": "Deals damage to the nearest enemy.",
+    "skill.03_drk.ws_0.lore.1": "After damage calculation, restore your own HP.",
+    "skill.03_drk.ws_1.lore.1": "After damage calculation, grants Haste to self.",
+    "skill.03_drk.ws_2.lore.1": "After damage calculation, grants self a regeneration effect and creates a barrier equal to one HP gauge.",
     "skill.ex1_exc.ws_0.name": "Rapid Blade",
     "skill.ex1_exc.ws_0.lore.0": "Charge toward the nearest enemy, dealing damage to the target and surrounding enemies.",
     "skill.ex1_exc.ws_0.lore.1": "After damage is dealt, return to your original position after a set duration.",
@@ -18,7 +23,15 @@
     "skill.ex1_exc.ab_0.name": "Vampiric Blade",
     "skill.ex1_exc.ab_0.lore.0": "Increases the attack power of normal attacks.",
     "skill.ex1_exc.ab_0.lore.1": "Additionally, when a weapon skill hits, it restores a small amount of health.",
+    "skill.ex1_exc.lb.name": "Semiprime",
+    "skill.ex1_exc.lb.lore.0": "Envelops oneself in flames, granting various effects.",
+    "skill.ex1_exc.lb.lore.1": "Upon effect duration ending, incurs the standard LIMIT BREAK penalty effect.",
     "__comment_01_equipment__": "EQUIPMENTS",
+    "item.dark_knight.helmet.name": "Dark Knight's Helmet",
+    "item.dark_knight.chestplate.name": "Dark Knight's Chestplate",
+    "item.dark_knight.leggings.name": "Dark Knight's Leggings",
+    "item.dark_knight.boots.name": "Dark Knight's Boots",
+    "item.ultimate_nothung.name": "Ultimate Nothung",
     "item.raised_soul.helmet.name": "Exorcist's Headdress",
     "item.raised_soul.chestplate.name": "Exorcist's Robe",
     "item.raised_soul.leggings.name": "Exorcist's Hakama",
@@ -54,5 +67,6 @@
     "skill.common.recast.10sec": "Recast: 10 sec",
     "skill.common.recast.20sec": "Recast: 20 sec",
     "skill.common.recast.30sec": "Recast: 30 sec",
+    "skill.common.atk_bonus.info": "This ability is subject to the attack power modifier applied to normal attacks.",
     "__comment_99_end_of_file__": "End of File"
 }

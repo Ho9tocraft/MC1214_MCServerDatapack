@@ -18,7 +18,15 @@
     "skill.ex1_exc.ab_0.name": "吸血の刃",
     "skill.ex1_exc.ab_0.lore.0": "通常攻撃の攻撃力を上昇させる。",
     "skill.ex1_exc.ab_0.lore.1": "また、ウェポンスキルの攻撃命中時、体力を少量回復する。",
+    "skill.ex1_exc.lb.name": "半顕現",
+    "skill.ex1_exc.lb.lore.0": "自身に炎を纏わせ、さまざまな効果を付与する。",
+    "skill.ex1_exc.lb.lore.1": "効果時間終了後に、LB共通のペナルティ効果を受ける。",
     "__comment_01_equipment__": "EQUIPMENTS",
+    "item.dark_knight.helmet.name": "暗黒騎士の兜",
+    "item.dark_knight.chestplate.name": "暗黒騎士の胴当て",
+    "item.dark_knight.leggings.name": "暗黒騎士の脚甲",
+    "item.dark_knight.boots.name": "暗黒騎士の足甲",
+    "item.ultimate_nothung.name": "ノートゥング【絶】",
     "item.raised_soul.helmet.name": "巫覡の髪飾り",
     "item.raised_soul.chestplate.name": "巫覡の衣",
     "item.raised_soul.leggings.name": "巫覡の袴",
@@ -43,5 +51,6 @@
     "skill.common.area.20m": "範囲: 20m",
     "skill.common.area.25m": "範囲: 25m",
     "skill.common.area.30m": "範囲: 30m",
+    "skill.common.atk_bonus.info": "この能力には、通常攻撃の攻撃力修正が適用される。",
     "__comment_99_end_of_file__": "End of File"
 }

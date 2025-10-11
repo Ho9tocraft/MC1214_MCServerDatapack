@@ -11,9 +11,14 @@ scoreboard objectives add job_id dummy
 scoreboard objectives add limit_break dummy
 # Damage Helper
 scoreboard objectives add DAMAGE_HELPER dummy
+scoreboard objectives add DAMAGE_HELPER_2 dummy
 scoreboard objectives add DAMAGE_CATEGORY dummy
 # Ticking
 scoreboard objectives add tick dummy
+scoreboard objectives add tps dummy
+scoreboard objectives add sec_count dummy
+# Iterator
+scoreboard objectives add iterator dummy
 # Using Item
 scoreboard objectives add click_red minecraft.used:minecraft.red_dye
 scoreboard objectives add click_orange minecraft.used:minecraft.orange_dye
@@ -42,3 +47,6 @@ data merge storage ffxiv:damage_path {target:[I;0,0,0,0],owner:[I;0,0,0,0],damag
 # HELPER Utils
 scoreboard players set ^TDHelper tick 0
 scoreboard players set ^TDHelper DAMAGE_CATEGORY 0
+scoreboard players set ^TDHelper tps 20
+scoreboard players set ^TDHelper sec_count 0
+scoreboard players set ^TDHelper iterator 0

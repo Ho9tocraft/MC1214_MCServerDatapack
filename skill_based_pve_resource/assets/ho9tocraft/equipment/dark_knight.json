@@ -1,0 +1,14 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "ho9tocraft:dark_knight"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "ho9tocraft:dark_knight"
+            }
+        ]
+    }
+}

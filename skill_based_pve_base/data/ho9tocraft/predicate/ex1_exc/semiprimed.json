@@ -1,0 +1,41 @@
+{
+    "condition": "inverted",
+    "term": {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "effects": {
+                "haste": {
+                    "duration": {
+                        "min": 1
+                    }
+                },
+                "health_boost": {
+                    "duration": {
+                        "min": 1
+                    }
+                },
+                "jump_boost": {
+                    "duration": {
+                        "min": 1
+                    }
+                },
+                "night_vision": {
+                    "duration": {
+                        "min": 1
+                    }
+                },
+                "regeneration": {
+                    "duration": {
+                        "min": 1
+                    }
+                },
+                "strength": {
+                    "duration": {
+                        "min": 1
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "ab_00": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "orange_dye",
+                    "predicates": {
+                        "custom_data": "{\"combinat_data\":{\"id\":100,\"burned\":false}}"
+                    }
+                },
+                "player": {}
+            }
+        }
+    },
+    "rewards": {
+        "function": "ho9tocraft:skills/ult_exc_00"
+    }
+}

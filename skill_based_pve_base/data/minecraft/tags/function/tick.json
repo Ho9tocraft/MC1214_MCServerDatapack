@@ -1,7 +1,9 @@
 {
     "values": [
         "ho9tocraft:utils/login_detect",
+        "ho9tocraft:utils/ticking_start",
         "#ho9tocraft:particles",
-        "#ho9tocraft:skills"
+        "#ho9tocraft:skills",
+        "ho9tocraft:utils/ticking_end"
     ]
 }
