@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "03_drk_ws_00": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "red_dye",
+                    "predicates": {
+                        "custom_data": "{\"combinat_data\":{\"id\":3,\"combo\":1}}"
+                    }
+                },
+                "player": {}
+            }
+        }
+    },
+    "rewards": {
+        "function": "ho9tocraft:skills/ws_drk_01"
+    }
+}
