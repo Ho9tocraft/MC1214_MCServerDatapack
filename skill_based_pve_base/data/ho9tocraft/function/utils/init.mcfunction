@@ -24,6 +24,8 @@ scoreboard objectives add click_red minecraft.used:minecraft.red_dye
 scoreboard objectives add click_orange minecraft.used:minecraft.orange_dye
 scoreboard objectives add click_yellow minecraft.used:minecraft.yellow_dye
 scoreboard objectives add click_white minecraft.used:minecraft.white_dye
+# Stage ID
+scoreboard objectives add stage_id dummy
 
 # Team
 team add RED

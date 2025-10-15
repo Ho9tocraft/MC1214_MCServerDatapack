@@ -78,6 +78,9 @@
     "skill.common.recast.10sec": "Recast: 10 sec",
     "skill.common.recast.20sec": "Recast: 20 sec",
     "skill.common.recast.30sec": "Recast: 30 sec",
+    "skill.common.recast.60sec": "Recast: 60 sec",
+    "skill.common.recast.90sec": "Recast: 90 sec",
+    "skill.common.recast.120sec": "Recast: 120 sec",
     "skill.common.atk_bonus.info": "This ability is subject to the attack power modifier applied to normal attacks.",
     "__comment_99_end_of_file__": "End of File"
 }

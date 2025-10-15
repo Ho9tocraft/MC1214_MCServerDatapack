@@ -1,0 +1,60 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "golden_apple",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "sharpness": {
+                                    "type": "constant",
+                                    "value": 10000
+                                }
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "type": "constant",
+                                "value": 0.0001
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {"text": "Bye-bye Trotsky"}
+                        }
+                    ],
+                    "name": "iron_pickaxe",
+                    "weight": 2,
+                    "conditions": [
+                        {
+                            "condition": "reference",
+                            "name": "ho9tocraft:trotsky_pickaxe"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "emerald_block",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "beacon"
+                }
+            ],
+            "rolls": 1.0,
+            "bonus_rolls": 0.0
+        }
+    ],
+    "random_sequence": "chests/trial_chambers/reward_unique"
+}

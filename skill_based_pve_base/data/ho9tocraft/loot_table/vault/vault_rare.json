@@ -1,0 +1,112 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 4.0,
+                                "min": 2.0
+                            },
+                            "add": false
+                        }
+                    ],
+                    "name": "emerald",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "type": "constant",
+                                "value": 0.0001
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "protection": {
+                                    "type": "uniform",
+                                    "max": 5.0,
+                                    "min": 1.0
+                                }
+                            },
+                            "add": false
+                        }
+                    ],
+                    "name": "shield",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "type": "constant",
+                                "value": 0.0001
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "power": {
+                                    "type": "constant",
+                                    "value": 20.0
+                                }
+                            },
+                            "add": false
+                        }
+                    ],
+                    "name": "bow",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "sharpness": {
+                                    "type": "constant",
+                                    "value": 10000
+                                }
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "type": "constant",
+                                "value": 0.0001
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {"text": "Bye-bye Trotsky"}
+                        }
+                    ],
+                    "name": "iron_pickaxe",
+                    "weight": 2,
+                    "conditions": [
+                        {
+                            "condition": "reference",
+                            "name": "ho9tocraft:trotsky_pickaxe"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1.0,
+            "bonus_rolls": 0.0
+        }
+    ],
+    "random_sequence": "chests/trial_chambers/reward_rare"
+}

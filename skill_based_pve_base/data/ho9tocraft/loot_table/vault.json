@@ -1,0 +1,52 @@
+{
+    "type": "vault",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ho9tocraft:vault/vault_common",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ho9tocraft:vault/vault_rare",
+                    "weight": 8
+                }
+            ],
+            "rolls": 1.0,
+            "bonus_rolls": 0.0
+        },
+        {
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ho9tocraft:vault/vault_common"
+                }
+            ],
+            "rolls": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 3.0
+            },
+            "bonus_rolls": 0.0
+        },
+        {
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ho9tocraft:vault/vault_unique",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.2
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1.0,
+            "bonus_rolls": 0.0
+        }
+    ],
+    "random_sequence": "chests/trial_chambers/reward"
+}
