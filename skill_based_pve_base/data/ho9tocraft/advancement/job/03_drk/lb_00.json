@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "lb_drk": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "orange_dye",
+                    "predicates": {
+                        "custom_data": "{\"combinat_data\":{\"id\":3,\"burned\":false}}"
+                    }
+                },
+                "player": {}
+            }
+        }
+    },
+    "rewards": {
+        "function": "ho9tocraft:skills/ult_drk_00"
+    }
+}

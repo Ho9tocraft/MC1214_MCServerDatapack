@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "ab_00": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "yellow_dye",
+                    "predicates": {
+                        "custom_data": "{\"combinat_data\":{\"id\":3,\"burned\":false}}"
+                    }
+                },
+                "player": {}
+            }
+        }
+    },
+    "rewards": {
+        "function": "ho9tocraft:skills/ab_drk_00"
+    }
+}

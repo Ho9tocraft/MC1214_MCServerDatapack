@@ -22,7 +22,7 @@ execute as @e[tag=SHBR_EFF] at @s run tag @s remove SHBR_EFF
 execute as @s[scores={job_id=3}] at @s run item replace entity @s hotbar.1 with red_dye[max_stack_size=1,custom_data={"combinat_data":{"id":3,"combo":0}},consumable={animation:"bow",consume_seconds:0.05,has_consume_particles:false,sound:"entity.experience_orb.pickup"},\
 use_cooldown={seconds:2.5,cooldown_group:"ffxiv:gcd_ws"},item_model="ffxiv:03_drk/hard_slash",item_name={translate:"skill.03_drk.ws_0.name"},\
 lore=[{translate:"skill.03_drk.ws_c.lore.0",color:"gray",italic:false},{translate:"skill.03_drk.ws_0.lore.1",color:"gray",italic:false},\
-{translate:"skill.common.range.5m",color:"aqua"},{translate:"skill.common.area.0m",color:"aqua"},\
-{translate:"skill.common.cast.instant",color:"green"},{translate:"skill.common.recast.2p5sec",color:"light_purple"}]]
+[{translate:"skill.common.range.5m",color:"aqua",italic:false},{text:" / ",color:"gray",italic:false},{translate:"skill.common.area.0m",color:"aqua",italic:false}],\
+[{translate:"skill.common.cast.instant",color:"green",italic:false},{text:" / ",color:"gray",italic:false},{translate:"skill.common.recast.2p5sec",color:"light_purple",italic:false}]]]
 execute as @s[scores={job_id=3}] at @s run scoreboard players set @s click_red 0
 execute as @s[scores={job_id=3}] at @s run advancement revoke @s only ho9tocraft:job/03_drk/ws_03

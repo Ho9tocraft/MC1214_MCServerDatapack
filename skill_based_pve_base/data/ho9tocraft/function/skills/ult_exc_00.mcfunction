@@ -34,6 +34,6 @@ execute as @s[scores={job_id=100}] at @s run tag @s add END_OF_LB
 execute as @s[scores={job_id=100}] at @s run item replace entity @s hotbar.3 with orange_dye[max_stack_size=1,custom_data={"combinat_data":{"id":100,"burned":true}},use_cooldown={seconds:10,cooldown_group:"ffxiv:limit_break"},\
 item_model="ffxiv:15_smn/everlasting_flight",item_name={"translate":"skill.ex1_exc.lb.name"},\
 lore=[{translate:"skill.ex1_exc.lb.lore.0",color:"gray",italic:false},{translate:"skill.ex1_exc.lb.lore.1",color:"gray",italic:false},\
-{translate:"skill.common.range.20m",color:"aqua",italic:false},{translate:"skill.common.area.6m",color:"aqua",italic:false},\
-{translate:"skill.common.cast.instant",color:"green",italic:false},{translate:"skill.common.recast.10sec",color:"light_purple",italic:false}]]
+[{translate:"skill.common.range.20m",color:"aqua",italic:false},{text:" / ",color:"gray",italic:false},{translate:"skill.common.area.6m",color:"aqua",italic:false}],\
+[{translate:"skill.common.cast.instant",color:"green",italic:false},{text:" / ",color:"gray",italic:false},{translate:"skill.common.recast.10sec",color:"light_purple",italic:false}]]]
 execute as @s[scores={job_id=100}] at @s run advancement revoke @s only ho9tocraft:job/ex1_exc/lb_00

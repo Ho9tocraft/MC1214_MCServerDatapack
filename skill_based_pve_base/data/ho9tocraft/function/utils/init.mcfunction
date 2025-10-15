@@ -28,6 +28,7 @@ scoreboard objectives add click_white minecraft.used:minecraft.white_dye
 # Team
 team add RED
 team add BLU
+team add MOB
 
 team modify RED collisionRule pushOtherTeams
 team modify RED color red
@@ -41,6 +42,12 @@ team modify BLU deathMessageVisibility hideForOtherTeams
 team modify BLU friendlyFire false
 team modify BLU nametagVisibility hideForOtherTeams
 team modify BLU prefix {text:"[BLU]",color:"blue"}
+team modify MOB collisionRule pushOtherTeams
+team modify MOB color dark_gray
+team modify MOB deathMessageVisibility always
+team modify MOB friendlyFire false
+team modify MOB nametagVisibility always
+team modify MOB prefix {text:"[MOB]",color:"dark_gray"}
 
 # DAMAGE CALCULATE STORAGE INIT
 data merge storage ffxiv:damage_path {target:[I;0,0,0,0],owner:[I;0,0,0,0],damage_amount:0}

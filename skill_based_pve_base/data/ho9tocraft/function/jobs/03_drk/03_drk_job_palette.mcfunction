@@ -19,8 +19,17 @@ execute as @p at @s run item replace entity @s hotbar.0 with netherite_sword[att
 # Skills
 execute as @p at @s run item replace entity @s hotbar.1 with red_dye[max_stack_size=1,custom_data={"combinat_data":{"id":3,"combo":0}},consumable={animation:"bow",consume_seconds:0.05,has_consume_particles:false,sound:"entity.experience_orb.pickup"},use_cooldown={seconds:2.5,cooldown_group:"ffxiv:gcd_ws"},\
 item_model="ffxiv:03_drk/hard_slash",item_name={translate:"skill.03_drk.ws_0.name"},lore=[{translate:"skill.03_drk.ws_c.lore.0",color:"gray",italic:false},{translate:"skill.03_drk.ws_0.lore.1",color:"gray",italic:false},\
-{translate:"skill.common.range.5m",color:"aqua"},{translate:"skill.common.area.0m",color:"aqua"},\
-{translate:"skill.common.cast.instant",color:"green"},{translate:"skill.common.recast.2p5sec",color:"light_purple"}]]
+[{translate:"skill.common.range.5m",color:"aqua",italic:false},{text:" / ",color:"gray",italic:false},{translate:"skill.common.area.0m",color:"aqua",italic:false}],\
+[{translate:"skill.common.cast.instant",color:"green",italic:false},{text:" / ",color:"gray",italic:false},{translate:"skill.common.recast.2p5sec",color:"light_purple",italic:false}]]]
+execute as @p at @s run item replace entity @s hotbar.2 with yellow_dye[max_stack_size=1,custom_data={"combinat_data":{"id":3,"burned":false}},consumable={animation:"bow",consume_seconds:0.05,has_consume_particles:false,sound:"entity.wither.ambient"},use_cooldown={seconds:30,cooldown_group:"ffxiv:abcd"},\
+item_model="ffxiv:03_drk/the_blackest_night",item_name={translate:"skill.03_drk.ab_0.name"},lore=[{translate:"skill.03_drk.ab_0.lore.0",color:"gray",italic:false},{translate:"skill.03_drk.ab_0.lore.1",color:"gray",italic:false},\
+[{translate:"skill.common.range.0m",color:"aqua",italic:false},{text:" / ",color:"gray",italic:false},{translate:"skill.common.area.0m",color:"aqua",italic:false}],\
+[{translate:"skill.common.cast.instant",color:"green",italic:false},{text:" / ",color:"gray",italic:false},{translate:"skill.common.recast.30sec",color:"light_purple",italic:false}]]]
+execute as @p at @s run item replace entity @s hotbar.3 with orange_dye[max_stack_size=1,custom_data={"combinat_data":{"id":3,"burned":true}},use_cooldown={seconds:10,cooldown_group:"ffxiv:limit_break"},\
+item_model="ffxiv:03_drk/eventide",item_name={"translate":"skill.03_drk.lb.name"},\
+lore=[{translate:"skill.03_drk.lb.lore.0",color:"gray",italic:false},{translate:"skill.03_drk.lb.lore.1",color:"gray",italic:false},\
+[{translate:"skill.common.range.10m",color:"aqua",italic:false},{text:" / ",color:"gray",italic:false},{translate:"skill.common.area.10m",color:"aqua",italic:false}],\
+[{translate:"skill.common.cast.instant",color:"green",italic:false},{text:" / ",color:"gray",italic:false},{translate:"skill.common.recast.10sec",color:"light_purple",italic:false}]]]
 # Attribute
 execute as @p at @s run attribute @s max_health base set 100
 execute as @p at @s run attribute @s movement_speed modifier add ho9tocraft:job_movement_env -0.05 add_multiplied_total

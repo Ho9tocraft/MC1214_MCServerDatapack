@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "damaged_ab": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "dealt": {
+                        "min": 1
+                    }
+                },
+                "player": {
+                    "effects": {
+                        "absorption": {
+                            "amplifier": 9,
+                            "duration": {
+                                "min": 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ho9tocraft:effects/p_damage_wrapper"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": { "absorption": {
+            "amplifier": 9,
+            "duration": {
+                "min": 1
+            }
+        }}
+    }
+}
