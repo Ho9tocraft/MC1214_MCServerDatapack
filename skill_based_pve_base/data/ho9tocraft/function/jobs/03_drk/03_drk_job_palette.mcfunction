@@ -3,19 +3,19 @@ function ho9tocraft:jobs/00_job_purge
 scoreboard players set @s job_id 3
 # Armor
 execute as @p at @s run item replace entity @s armor.head with iron_helmet[equippable={slot:"head",asset_id:"ho9tocraft:dark_knight"},\
-attribute_modifiers=[{type:"armor",amount:6,operation:"add_value",id:"ho9tocraft:dark_knight_helmet",display:{type:"hidden"},slot:"armor"},\
+attribute_modifiers=[{type:"armor",amount:3,operation:"add_value",id:"ho9tocraft:dark_knight_helmet",display:{type:"hidden"},slot:"armor"},\
 {type:"armor_toughness",amount:2,operation:"add_value",id:"ho9tocraft:dark_knight_helmet",display:{type:"hidden"},slot:"armor"}],unbreakable={},item_model="ho9tocraft:03_drk/dark_knight_helmet",item_name={translate:"item.dark_knight.helmet.name",color:"#1e90ff"},\
 enchantments={binding_curse:1},tooltip_display={hidden_components:["unbreakable"]}] 1
 execute as @p at @s run item replace entity @s armor.chest with iron_chestplate[equippable={slot:"chest",asset_id:"ho9tocraft:dark_knight"},\
-attribute_modifiers=[{type:"armor",amount:16,operation:"add_value",id:"ho9tocraft:dark_knight_chestplate",display:{type:"hidden"},slot:"armor"},\
+attribute_modifiers=[{type:"armor",amount:8,operation:"add_value",id:"ho9tocraft:dark_knight_chestplate",display:{type:"hidden"},slot:"armor"},\
 {type:"armor_toughness",amount:2,operation:"add_value",id:"ho9tocraft:dark_knight_chestplate",display:{type:"hidden"},slot:"armor"}],unbreakable={},item_model="ho9tocraft:03_drk/dark_knight_chestplate",item_name={translate:"item.dark_knight.chestplate.name",color:"#1e90ff"},\
 enchantments={binding_curse:1},tooltip_display={hidden_components:["unbreakable"]}] 1
 execute as @p at @s run item replace entity @s armor.legs with iron_chestplate[equippable={slot:"legs",asset_id:"ho9tocraft:dark_knight"},\
-attribute_modifiers=[{type:"armor",amount:12,operation:"add_value",id:"ho9tocraft:dark_knight_leggings",display:{type:"hidden"},slot:"armor"},\
+attribute_modifiers=[{type:"armor",amount:6,operation:"add_value",id:"ho9tocraft:dark_knight_leggings",display:{type:"hidden"},slot:"armor"},\
 {type:"armor_toughness",amount:2,operation:"add_value",id:"ho9tocraft:dark_knight_leggings",display:{type:"hidden"},slot:"armor"}],unbreakable={},item_model="ho9tocraft:03_drk/dark_knight_leggings",item_name={translate:"item.dark_knight.leggings.name",color:"#1e90ff"},\
 enchantments={binding_curse:1},tooltip_display={hidden_components:["unbreakable"]}] 1
 execute as @p at @s run item replace entity @s armor.feet with iron_chestplate[equippable={slot:"feet",asset_id:"ho9tocraft:dark_knight"},\
-attribute_modifiers=[{type:"armor",amount:6,operation:"add_value",id:"ho9tocraft:dark_knight_boots",display:{type:"hidden"},slot:"armor"},\
+attribute_modifiers=[{type:"armor",amount:3,operation:"add_value",id:"ho9tocraft:dark_knight_boots",display:{type:"hidden"},slot:"armor"},\
 {type:"armor_toughness",amount:2,operation:"add_value",id:"ho9tocraft:dark_knight_boots",display:{type:"hidden"},slot:"armor"}],unbreakable={},item_model="ho9tocraft:03_drk/dark_knight_boots",item_name={translate:"item.dark_knight.boots.name",color:"#1e90ff"},\
 enchantments={binding_curse:1},tooltip_display={hidden_components:["unbreakable"]}] 1
 # Main Weapon

@@ -1,0 +1,30 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "iron_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "type": "uniform",
+                                "min": 1.0,
+                                "max": 8.0
+                            }
+                        }
+                    ],
+                    "weight": 4
+                },
+                {
+                    "type": "empty",
+                    "weight": 4
+                }
+            ],
+            "rolls": 1.0,
+            "bonus_rolls": 0.0
+        }
+    ]
+}

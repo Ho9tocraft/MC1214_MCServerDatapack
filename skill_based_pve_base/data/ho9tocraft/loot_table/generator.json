@@ -1,0 +1,25 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ho9tocraft:item_generator/generator_iron",
+                    "weight": 6
+                },
+                {
+                    "type": "loot_table",
+                    "value": "ho9tocraft:item_generator/generator_gold",
+                    "quality": 2
+                }
+            ],
+            "rolls": {
+                "type": "uniform",
+                "min": 1.0,
+                "max": 4.0
+            },
+            "bonus_rolls": 0.0
+        }
+    ]
+}

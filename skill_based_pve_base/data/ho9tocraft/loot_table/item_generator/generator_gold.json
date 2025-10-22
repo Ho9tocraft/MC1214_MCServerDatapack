@@ -1,0 +1,30 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "type": "uniform",
+                                "min": 1.0,
+                                "max": 4.0
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 7
+                }
+            ],
+            "rolls": 1.0,
+            "bonus_rolls": 0.0
+        }
+    ]
+}

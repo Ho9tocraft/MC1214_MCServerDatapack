@@ -5,6 +5,12 @@ scoreboard objectives add LOGOUT minecraft.custom:minecraft.leave_game
 scoreboard objectives add kills playerKillCount
 scoreboard objectives add deaths deathCount
 scoreboard objectives add KillDeathRate dummy
+# キルスコア
+scoreboard objectives add kdrate_red dummy
+scoreboard objectives add kdrate_blu dummy
+# 戦力スコア
+scoreboard objectives add warscore_red dummy
+scoreboard objectives add warscore_blu dummy
 # JOB ID
 scoreboard objectives add job_id dummy
 # LIMIT BREAK
@@ -26,6 +32,18 @@ scoreboard objectives add click_yellow minecraft.used:minecraft.yellow_dye
 scoreboard objectives add click_white minecraft.used:minecraft.white_dye
 # Stage ID
 scoreboard objectives add stage_id dummy
+# Game Mode
+scoreboard objectives add game_mode dummy
+# Stage Info
+# 1. 残り秒数
+scoreboard objectives add st_pcount_time dummy
+scoreboard objectives add st_tcount_time dummy
+scoreboard objectives add st_tcount_ref dummy
+# 2. 宝物庫リセットタイミング
+scoreboard objectives add st_vreset_calc dummy
+scoreboard objectives add st_vreset_ref dummy
+# 3. ステージコンディション
+scoreboard objectives add stage_condition dummy
 
 # Team
 team add RED
@@ -59,3 +77,30 @@ scoreboard players set ^TDHelper DAMAGE_CATEGORY 0
 scoreboard players set ^TDHelper tps 20
 scoreboard players set ^TDHelper sec_count 0
 scoreboard players set ^TDHelper iterator 0
+
+scoreboard players set ^TDHelper stage_id 0
+scoreboard players set ^TDHelper st_tcount_time -2
+scoreboard players set ^TDHelper st_tcount_ref 600
+scoreboard players set ^TDHelper st_vreset_calc -1
+scoreboard players set ^TDHelper st_vreset_ref 120
+# -2: Lobby / -1: Prepare / 0: In Battle / 1: Overtime / 2: Finish
+scoreboard players set ^TDHelper stage_condition -2
+# 0: キルスコア / 1: 戦力スコア / 2: クリスタルコンフリクト
+scoreboard players set ^TDHelper game_mode 0
+# キルスコア
+scoreboard players set ^TDHelper kdrate_red 0
+scoreboard players set ^TDHelper kdrate_blu 0
+# 戦力スコア
+scoreboard players set ^TDHelper warscore_red 0
+scoreboard players set ^TDHelper warscore_blu 0
+
+# Bossbar add
+bossbar add ho9tocraft:time_prepare {translate:"ui.prepare_time.info"}
+bossbar add ho9tocraft:time_battle {translate:"ui.battle_time.info"}
+bossbar set ho9tocraft:time_prepare max 30
+bossbar set ho9tocraft:time_prepare color purple
+bossbar set ho9tocraft:time_prepare style progress
+bossbar set ho9tocraft:time_prepare visible false
+bossbar set ho9tocraft:time_battle color red
+bossbar set ho9tocraft:time_battle style notched_6
+bossbar set ho9tocraft:time_battle visible false

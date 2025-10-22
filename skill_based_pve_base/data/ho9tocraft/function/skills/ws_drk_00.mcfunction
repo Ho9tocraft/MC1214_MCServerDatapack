@@ -5,7 +5,8 @@ execute as @s[scores={job_id=3}] store result score @s DAMAGE_HELPER_2 run attri
 execute as @s[scores={job_id=3}] at @s run scoreboard players operation @s DAMAGE_HELPER += @s DAMAGE_HELPER_2
 execute as @s[scores={job_id=3}] at @s run scoreboard players set @s DAMAGE_HELPER_2 0
 # 1. 単体攻撃
-execute as @s[scores={job_id=3}] at @s run effect give @s instant_health 1 1 false
+execute as @s[scores={job_id=3},team=RED] at @s if entity @e[team=BLU,distance=..5] run effect give @s instant_health 1 1 false
+execute as @s[scores={job_id=3},team=BLU] at @s if entity @e[team=RED,distance=..5] run effect give @s instant_health 1 1 false
 execute as @s[scores={job_id=3}] at @s run data modify storage ffxiv:damage_path owner set from entity @s UUID
 execute as @s[scores={job_id=3}] at @s store result storage ffxiv:damage_path damage_amount float 1.0 run scoreboard players get @s DAMAGE_HELPER
 execute as @s[scores={job_id=3}] at @s run scoreboard players set ^TDHelper DAMAGE_CATEGORY 1
