@@ -1,3 +1,8 @@
+# ボスバー
+bossbar set ho9tocraft:time_prepare players @a
+bossbar set ho9tocraft:time_battle players @a
+execute store result bossbar ho9tocraft:time_prepare value run scoreboard players get ^TDHelper st_pcount_time
+execute store result bossbar ho9tocraft:time_battle value run scoreboard players get ^TDHelper st_tcount_time
 # 暗黒騎士
 execute as @a[scores={job_id=3}] at @s if items entity @s hotbar.2 yellow_dye[custom_data={"combinat_data":{"id":3,"burned":1b}}] at @s run \
 item replace entity @s hotbar.2 with yellow_dye[max_stack_size=1,custom_data={"combinat_data":{"id":3,"burned":false}},consumable={animation:"bow",consume_seconds:0.05,has_consume_particles:false,sound:"entity.wither.ambient"},use_cooldown={seconds:30,cooldown_group:"ffxiv:abcd"},\

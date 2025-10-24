@@ -84,5 +84,6 @@
     "skill.common.atk_bonus.info": "This ability is subject to the attack power modifier applied to normal attacks.",
     "ui.prepare_time.info": "Prepare...",
     "ui.battle_time.info": "Battle Time Remain",
+    "info.vault_reset.text": "Vault Reset!",
     "__comment_99_end_of_file__": "End of File"
 }

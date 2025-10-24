@@ -3,13 +3,13 @@ function ho9tocraft:jobs/00_job_purge
 scoreboard players set @s job_id 100
 # Armor
 execute as @p at @s run item replace entity @s armor.head with leather_helmet[equippable={slot:"head",asset_id:"ho9tocraft:raised_soul"},attribute_modifiers=[{type:"armor",amount:3,operation:"add_value",id:"ho9tocraft:exorcist_head_ac",display:{type:"hidden"},slot:"armor"},{type:"armor_toughness",amount:1,operation:"add_value",id:"ho9tocraft:exorcist_head_at",display:{type:"hidden"},slot:"armor"}],item_model="ho9tocraft:raised_soul_helmet",item_name={translate:"item.raised_soul.helmet.name",color:"#FDEFF2"},unbreakable={},\
-enchantments={binding_curse:1},tooltip_display={hidden_components:["unbreakable"]}] 1
+enchantments={binding_curse:1,protection:5},tooltip_display={hidden_components:["unbreakable"]}] 1
 execute as @p at @s run item replace entity @s armor.chest with leather_chestplate[equippable={slot:"chest",asset_id:"ho9tocraft:raised_soul"},attribute_modifiers=[{type:"armor",amount:8,operation:"add_value",id:"ho9tocraft:exorcist_chest_ac",display:{type:"hidden"},slot:"armor"},{type:"armor_toughness",amount:1,operation:"add_value",id:"ho9tocraft:exorcist_chest_at",display:{type:"hidden"},slot:"armor"}],item_model="ho9tocraft:raised_soul_chestplate",item_name={translate:"item.raised_soul.chestplate.name",color:"#FDEFF2"},unbreakable={},\
-enchantments={binding_curse:1},tooltip_display={hidden_components:["unbreakable"]}] 1
+enchantments={binding_curse:1,protection:5},tooltip_display={hidden_components:["unbreakable"]}] 1
 execute as @p at @s run item replace entity @s armor.legs with leather_leggings[equippable={slot:"legs",asset_id:"ho9tocraft:raised_soul"},attribute_modifiers=[{type:"armor",amount:6,operation:"add_value",id:"ho9tocraft:exorcist_legs_ac",display:{type:"hidden"},slot:"armor"},{type:"armor_toughness",amount:1,operation:"add_value",id:"ho9tocraft:exorcist_legs_at",display:{type:"hidden"},slot:"armor"}],item_model="ho9tocraft:raised_soul_leggings",item_name={translate:"item.raised_soul.leggings.name",color:"#FDEFF2"},unbreakable={},\
-enchantments={binding_curse:1},tooltip_display={hidden_components:["unbreakable"]}] 1
+enchantments={binding_curse:1,protection:5},tooltip_display={hidden_components:["unbreakable"]}] 1
 execute as @p at @s run item replace entity @s armor.feet with leather_boots[equippable={slot:"feet",asset_id:"ho9tocraft:raised_soul"},attribute_modifiers=[{type:"armor",amount:3,operation:"add_value",id:"ho9tocraft:exorcist_feet_ac",display:{type:"hidden"},slot:"armor"},{type:"armor_toughness",amount:1,operation:"add_value",id:"ho9tocraft:exorcist_feet_at",display:{type:"hidden"},slot:"armor"}],item_model="ho9tocraft:raised_soul_boots",item_name={translate:"item.raised_soul.boots.name",color:"#FDEFF2"},unbreakable={},\
-enchantments={binding_curse:1},tooltip_display={hidden_components:["unbreakable"]}] 1
+enchantments={binding_curse:1,protection:5},tooltip_display={hidden_components:["unbreakable"]}] 1
 # Main Weapon
 execute as @p at @s run item replace entity @s hotbar.0 with netherite_sword[attribute_modifiers=[{type:"attack_damage",amount:8,operation:"add_value",id:"ho9tocraft:exorcist_mainhand",display:{type:"hidden"},slot:"mainhand"},{type:"attack_speed",amount:0.75,operation:"add_multiplied_base",id:"ho9tocraft:exorcist_mainhand",display:{type:"hidden"},slot:"mainhand"}],item_model="ho9tocraft:ex1_exc/dfirelink_rhblade",item_name={translate:"item.raised_soul.rhweapon.name",color:"#FDEFF2"},unbreakable={},\
 tooltip_display={hidden_components:["unbreakable"]}] 1

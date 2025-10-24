@@ -17,3 +17,5 @@ data merge block -308 66 113 {server_data:{rewarded_players:[]},config:{loot_tab
 data merge block -333 67 117 {server_data:{rewarded_players:[]},config:{loot_table:"ho9tocraft:vault"}}
 data merge block -333 67 117 {server_data:{rewarded_players:[]},config:{loot_table:"ho9tocraft:vault"}}
 data merge block -347 71 112 {server_data:{rewarded_players:[]},config:{loot_table:"ho9tocraft:vault"}}
+# 4. tellraw
+tellraw @a [{translate:"info.vault_reset.text",color:"gold"}]

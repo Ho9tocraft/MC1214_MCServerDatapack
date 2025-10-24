@@ -49,6 +49,7 @@ scoreboard objectives add stage_condition dummy
 team add RED
 team add BLU
 team add MOB
+team add WAT
 
 team modify RED collisionRule pushOtherTeams
 team modify RED color red
@@ -68,6 +69,12 @@ team modify MOB deathMessageVisibility always
 team modify MOB friendlyFire false
 team modify MOB nametagVisibility always
 team modify MOB prefix {text:"[MOB]",color:"dark_gray"}
+team modify WAT collisionRule never
+team modify WAT color gray
+team modify WAT deathMessageVisibility never
+team modify WAT friendlyFire false
+team modify WAT nametagVisibility always
+team modify WAT prefix {text:"[WAT]",color:"gray"}
 
 # DAMAGE CALCULATE STORAGE INIT
 data merge storage ffxiv:damage_path {target:[I;0,0,0,0],owner:[I;0,0,0,0],damage_amount:0}
@@ -79,6 +86,7 @@ scoreboard players set ^TDHelper sec_count 0
 scoreboard players set ^TDHelper iterator 0
 
 scoreboard players set ^TDHelper stage_id 0
+scoreboard players set ^TDHelper st_pcount_time 0
 scoreboard players set ^TDHelper st_tcount_time -2
 scoreboard players set ^TDHelper st_tcount_ref 600
 scoreboard players set ^TDHelper st_vreset_calc -1

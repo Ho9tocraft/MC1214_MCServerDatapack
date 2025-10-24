@@ -68,5 +68,8 @@
     "skill.common.area.25m": "範囲: 25m",
     "skill.common.area.30m": "範囲: 30m",
     "skill.common.atk_bonus.info": "この能力には、通常攻撃の攻撃力修正が適用される。",
+    "ui.prepare_time.info": "準備時間",
+    "ui.battle_time.info": "戦闘残り時間",
+    "info.vault_reset.text": "宝物庫がリセットされた！",
     "__comment_99_end_of_file__": "End of File"
 }
