@@ -9,6 +9,7 @@ data merge block -242 55 -23 {server_data:{rewarded_players:[]},config:{loot_tab
 data merge block -223 55 -34 {server_data:{rewarded_players:[]},config:{loot_table:"ho9tocraft:vault"}}
 data merge block -242 55 -45 {server_data:{rewarded_players:[]},config:{loot_table:"ho9tocraft:vault"}}
 data merge block -254 55 -45 {server_data:{rewarded_players:[]},config:{loot_table:"ho9tocraft:vault"}}
+data merge block -230 45 23 {server_data:{rewarded_players:[]},config:{loot_table:"ho9tocraft:vault"}}
 # 2. 工場
 data merge block -256 60 57 {server_data:{rewarded_players:[]},config:{loot_table:"ho9tocraft:vault"}}
 # 3. 赤陣営側

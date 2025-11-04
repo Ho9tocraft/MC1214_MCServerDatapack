@@ -93,7 +93,11 @@
                     "weight": 1
                 }
             ],
-            "rolls": 1.0
+            "rolls": {
+                "type": "uniform",
+                "max": 4.0,
+                "min": 1.0
+            }
         }
     ]
 }
