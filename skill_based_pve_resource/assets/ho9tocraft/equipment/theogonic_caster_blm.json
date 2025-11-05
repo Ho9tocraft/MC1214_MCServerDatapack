@@ -1,0 +1,14 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "ho9tocraft:theogonic_blm"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "ho9tocraft:theogonic_blm"
+            }
+        ]
+    }
+}

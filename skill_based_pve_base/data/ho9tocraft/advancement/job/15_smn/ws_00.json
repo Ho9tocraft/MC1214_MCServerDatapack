@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "ws_00": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "red_dye",
+                    "predicates": {
+                        "custom_data": "{\"combinat_data\":{\"id\":15,\"combo\":0}}"
+                    }
+                },
+                "player": {}
+            }
+        }
+    },
+    "rewards": {
+        "function": "damage_format"
+    }
+}
